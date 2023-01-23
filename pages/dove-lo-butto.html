@@ -25,9 +25,9 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/dove-lo-butto.html">Dove lo butto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/dove-lo-butto">Dove lo butto</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Mappa</a></li>
                 </ul>
             </div>
@@ -47,104 +47,116 @@
         </div>
     </header>
     <!-- Page Content-->
-    <section>
+    <section class="pt-2 mb-4">
         <div class="container px-lg-5">
-            <div class="text-center mb-0 p-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="row justify-content-center my-2">
+                        <div class="input-group mb-3 mx-auto">
+                            <span class="input-group-text border-success">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16" style="color: #59d900;">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </span>
+                            <input type="text" class="form-control form-control-lg border-success" placeholder="Cerca"
+                                list="lista" autocomplete="off">
+                            <datalist id="lista">
+                                <option value="Carta da pacchi"></option>
+                                <option value="Cartoni di pizza senza residui di cibo"></option>
+                                <option value="cartoni di provenienza domestica (imballaggi di TV, computer, etc.)">
+                                </option>
+                                <option value="Cartoni per bevande"></option>
+                                <option value="Confezioni in carta e cartoncino per giocattoli e abbigliamento">
+                                </option>
+                                <option value="confezioni in tetrapak"></option>
+                                <option value="Quaderni, giornali, riviste, libri, fogli di carta"></option>
+                                <option value="sacchetti di carta"></option>
+                                <option value="Scatole"></option>
+                                <option value="Scatole delle scarpe"></option>
+                                <option value="Scatole per alimenti (anche se contengono finestre di plastica)">
+                                </option>
+                                <option value="Calze in nylon"></option>
+                                <option value="Carta fotografica"></option>
+                                <option value="CD, DVD, videocassette VHS, musicassette"></option>
+                                <option value="Cerotti"></option>
+                                <option value="Cocci di piatti in ceramica"></option>
+                                <option value="Cosmetici (rossetti, smalti, etc.)"></option>
+                                <option value="Guanti in lattice"></option>
+                                <option value="Lastre radiografiche"></option>
+                                <option value="Lettiere per animali domestici"></option>
+                                <option value="Mozziconi di sigaretta"></option>
+                                <option value="Occhiali"></option>
+                                <option value="Pannolini e assorbenti"></option>
+                                <option value="Penne, pennarelli"></option>
+                                <option value="Rasoi, accendini"></option>
+                                <option value="Sacchi dell'aspirapolvere"></option>
+                                <option value="Scontrini fiscali"></option>
+                                <option value="Spazzolini"></option>
+                                <option value="Stracci e spugne"></option>
+                                <option value="Barattoli in metallo per conserve alimentari"></option>
+                                <option value="Bombolette spray non pericolose (non etichettate T e F)">
+                                </option>
+                                <option value="Bottiglie in plastica"></option>
+                                <option value="Caffettiere"></option>
+                                <option value="Cassette in plastica"></option>
+                                <option value="Chiavi, lucchetti e catene"></option>
+                                <option value="Confezioni e vaschette in plastica o polistirolo per alimenti">
+                                </option>
+                                <option value="Coperchi e fogli di alluminio"></option>
+                                <option value="Flaconi in plastica"></option>
+                                <option value="Grucce in plastica o ferro per abiti"></option>
+                                <option value="Latte e lattine per olio"></option>
+                                <option value="Lattine per bevande"></option>
+                                <option value="Pellicole per alimenti"></option>
+                                <option value="Pentole e padelle in metallo"></option>
+                                <option value="Piatti e bicchieri in plastica (anche sporchi, purché svuotati)">
+                                </option>
+                                <option value="Scatole in metallo"></option>
+                                <option value="Tappi"></option>
+                                <option value="Tubetti vuoti"></option>
+                                <option value="Vaschette da forno"></option>
+                                <option value="Posate in metallo"></option>
+                                <option value="Piccoli manufatti in metallo"></option>
+                                <option value="Alimenti avariati senza confezioni"></option>
+                                <option value="Avanzi di cucina e di cibo (eliminando i liquidi in eccesso)">
+                                </option>
+                                <option value="Cartoni di pizza con residui di cibo"></option>
+                                <option value="Cenere di legna"></option>
+                                <option value="Fazzoletti di carta unti (scottex, tovaglioli)"></option>
+                                <option value="Filtri di the e tisane"></option>
+                                <option value="Foglie, fiori e piante da appartamento"></option>
+                                <option value="Fondi di caffè e cialde in carta di caffè"></option>
+                                <option value="Gusci delle uova"></option>
+                                <option value="Gusci di frutti di mare"></option>
+                                <option value="Pane"></option>
+                                <option value="Segatura"></option>
+                                <option value="Terriccio dei travasi (piccole quantità)"></option>
+                                <option value="Verdure, avanzi e bucce di frutta"></option>
+                                <option value="Barattoli"></option>
+                                <option value="Bottiglie"></option>
+                                <option value="Bottigliette"></option>
+                                <option value="Vasetti"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-2">
+                        <div class="rounded align-self-center p-3 mx-auto"
+                            style="background-color: #4BB701; max-width: 40%; font-family: 'Lato';">
+                            <p class="mb-0 lead" style="color: #fff">
+                                Va buttato: <svg xmlns="http://www.w3.org/2000/svg" max-width="22" height="22"
+                                    fill=#4BB701 id="squaresvg" class="bi bi-square-fill mx-2 ms-2" viewBox="0 0 16 16">
+                                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
 
-                <div class="input-group mb-3 mx-auto" style="max-width: 50%; min-height: 50px;">
-                    <span class="input-group-text border-success">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 16 16" style="color: #59d900;">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                        </svg>
-                    </span>
-                    <input type="text" class="form-control form-control-lg border-success" placeholder="Cerca"
-                        list="lista" autocomplete="off">
-                    <datalist id="lista">
-                        <option value="Carta da pacchi"></option>
-                        <option value="Cartoni di pizza senza residui di cibo"></option>
-                        <option value="cartoni di provenienza domestica (imballaggi di TV, computer, etc.)"></option>
-                        <option value="Cartoni per bevande"></option>
-                        <option value="Confezioni in carta e cartoncino per giocattoli e abbigliamento"></option>
-                        <option value="confezioni in tetrapak"></option>
-                        <option value="Quaderni, giornali, riviste, libri, fogli di carta"></option>
-                        <option value="sacchetti di carta"></option>
-                        <option value="Scatole"></option>
-                        <option value="Scatole delle scarpe"></option>
-                        <option value="Scatole per alimenti (anche se contengono finestre di plastica)"></option>
-                        <option value="Calze in nylon"></option>
-                        <option value="Carta fotografica"></option>
-                        <option value="CD, DVD, videocassette VHS, musicassette"></option>
-                        <option value="Cerotti"></option>
-                        <option value="Cocci di piatti in ceramica"></option>
-                        <option value="Cosmetici (rossetti, smalti, etc.)"></option>
-                        <option value="Guanti in lattice"></option>
-                        <option value="Lastre radiografiche"></option>
-                        <option value="Lettiere per animali domestici"></option>
-                        <option value="Mozziconi di sigaretta"></option>
-                        <option value="Occhiali"></option>
-                        <option value="Pannolini e assorbenti"></option>
-                        <option value="Penne, pennarelli"></option>
-                        <option value="Rasoi, accendini"></option>
-                        <option value="Sacchi dell'aspirapolvere"></option>
-                        <option value="Scontrini fiscali"></option>
-                        <option value="Spazzolini"></option>
-                        <option value="Stracci e spugne"></option>
-                        <option value="Barattoli in metallo per conserve alimentari"></option>
-                        <option value="Bombolette spray non pericolose (non etichettate T e F)"></option>
-                        <option value="Bottiglie in plastica"></option>
-                        <option value="Caffettiere"></option>
-                        <option value="Cassette in plastica"></option>
-                        <option value="Chiavi, lucchetti e catene"></option>
-                        <option value="Confezioni e vaschette in plastica o polistirolo per alimenti"></option>
-                        <option value="Coperchi e fogli di alluminio"></option>
-                        <option value="Flaconi in plastica"></option>
-                        <option value="Grucce in plastica o ferro per abiti"></option>
-                        <option value="Latte e lattine per olio"></option>
-                        <option value="Lattine per bevande"></option>
-                        <option value="Pellicole per alimenti"></option>
-                        <option value="Pentole e padelle in metallo"></option>
-                        <option value="Piatti e bicchieri in plastica (anche sporchi, purché svuotati)"></option>
-                        <option value="Scatole in metallo"></option>
-                        <option value="Tappi"></option>
-                        <option value="Tubetti vuoti"></option>
-                        <option value="Vaschette da forno"></option>
-                        <option value="Posate in metallo"></option>
-                        <option value="Piccoli manufatti in metallo"></option>
-                        <option value="Alimenti avariati senza confezioni"></option>
-                        <option value="Avanzi di cucina e di cibo (eliminando i liquidi in eccesso)"></option>
-                        <option value="Cartoni di pizza con residui di cibo"></option>
-                        <option value="Cenere di legna"></option>
-                        <option value="Fazzoletti di carta unti (scottex, tovaglioli)"></option>
-                        <option value="Filtri di the e tisane"></option>
-                        <option value="Foglie, fiori e piante da appartamento"></option>
-                        <option value="Fondi di caffè e cialde in carta di caffè"></option>
-                        <option value="Gusci delle uova"></option>
-                        <option value="Gusci di frutti di mare"></option>
-                        <option value="Pane"></option>
-                        <option value="Segatura"></option>
-                        <option value="Terriccio dei travasi (piccole quantità)"></option>
-                        <option value="Verdure, avanzi e bucce di frutta"></option>
-                        <option value="Barattoli"></option>
-                        <option value="Bottiglie"></option>
-                        <option value="Bottigliette"></option>
-                        <option value="Vasetti"></option>
-                    </datalist>
-                </div>
-
-
-                <div class="rounded align-self-center p-3 mx-auto"
-                    style="background-color: #4BB701; max-width: 30%; min-height: fit-content; font-family: 'Lato';">
-                    <p class="mb-0 lead" style="color: #fff">
-                        Va buttato: <svg xmlns="http://www.w3.org/2000/svg" max-width="22" height="22" fill=#4BB701
-                            id="squaresvg" class="bi bi-square-fill mx-2 ms-2" viewBox="0 0 16 16">
-                            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
-                        </svg>
-                    </p>
                 </div>
             </div>
-            <!-- Decoration -->
+        </div>
+        </div>
     </section>
     <img src="../assets/plant.png" class="decoration" style="--x: -130px; --y: -500px; --angle: 40deg;">
     <!-- Footer -->
