@@ -1,70 +1,274 @@
 [
-    "Carta da pacchi",
-    "Cartoni di pizza senza residui di cibo",
-    "cartoni di provenienza domestica (imballaggi di TV, computer, etc.)",
-    "Cartoni per bevande",
-    "Confezioni in carta e cartoncino per giocattoli e abbigliamento",
-    "confezioni in tetrapak",
-    "Quaderni, giornali, riviste, libri, fogli di carta",
-    "sacchetti di carta",
-    "Scatole",
-    "Scatole delle scarpe",
-    "Scatole per alimenti (anche se contengono finestre di plastica)",
-    "Calze in nylon",
-    "Carta fotografica",
-    "CD, DVD, videocassette VHS, musicassette",
-    "Cerotti",
-    "Cocci di piatti in ceramica",
-    "Cosmetici (rossetti, smalti, etc.)",
-    "Guanti in lattice",
-    "Lastre radiografiche",
-    "Lettiere per animali domestici",
-    "Mozziconi di sigaretta",
-    "Occhiali",
-    "Pannolini e assorbenti",
-    "Penne, pennarelli",
-    "Rasoi, accendini",
-    "Sacchi dell'aspirapolvere",
-    "Scontrini fiscali",
-    "Spazzolini",
-    "Stracci e spugne",
-    "Barattoli in metallo per conserve alimentari",
-    "Bombolette spray non pericolose (non etichettate T e F)",
-    "Bottiglie in plastica",
-    "Caffettiere",
-    "Cassette in plastica",
-    "Chiavi, lucchetti e catene",
-    "Confezioni e vaschette in plastica o polistirolo per alimenti",
-    "Coperchi e fogli di alluminio",
-    "Flaconi in plastica",
-    "Grucce in plastica o ferro per abiti",
-    "Latte e lattine per olio",
-    "Lattine per bevande",
-    "Pellicole per alimenti",
-    "Pentole e padelle in metallo",
-    "Piatti e bicchieri in plastica (anche sporchi, purché svuotati)",
-    "Scatole in metallo",
-    "Tappi",
-    "Tubetti vuoti",
-    "Vaschette da forno",
-    "Posate in metallo",
-    "Piccoli manufatti in metallo",
-    "Alimenti avariati senza confezioni",
-    "Avanzi di cucina e di cibo (eliminando i liquidi in eccesso)",
-    "Cartoni di pizza con residui di cibo",
-    "Cenere di legna",
-    "Fazzoletti di carta unti (scottex, tovaglioli)",
-    "Filtri di the e tisane",
-    "Foglie, fiori e piante da appartamento",
-    "Fondi di caffè e cialde in carta di caffè",
-    "Gusci delle uova",
-    "Gusci di frutti di mare",
-    "Pane",
-    "Segatura",
-    "Terriccio dei travasi (piccole quantità)",
-    "Verdure, avanzi e bucce di frutta",
-    "Barattoli",
-    "Bottiglie",
-    "Bottigliette",
-    "Vasetti"
+    {
+        "item": "Carta da pacchi",
+        "bin": "Carta"
+    },
+    {
+        "item": "Cartoni di pizza senza residui di cibo",
+        "bin": "Carta"
+    },
+    {
+        "item": "cartoni di provenienza domestica (imballaggi di TV, computer, etc.)",
+        "bin": "Carta"
+    },
+    {
+        "item": "Cartoni per bevande",
+        "bin": "Carta"
+    },
+    {
+        "item": "Confezioni in carta e cartoncino per giocattoli e abbigliamento",
+        "bin": "Carta"
+    },
+    {
+        "item": "confezioni in tetrapak",
+        "bin": "Carta"
+    },
+    {
+        "item": "Quaderni, giornali, riviste, libri, fogli di carta",
+        "bin": "Carta"
+    },
+    {
+        "item": "sacchetti di carta",
+        "bin": "Carta"
+    },
+    {
+        "item": "Scatole",
+        "bin": "Carta"
+    },
+    {
+        "item": "Scatole delle scarpe",
+        "bin": "Carta"
+    },
+    {
+        "item": "Scatole per alimenti (anche se contengono finestre di plastica)",
+        "bin": "Carta"
+    },
+    {
+        "item": "Calze in nylon",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Carta fotografica",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "CD, DVD, videocassette VHS, musicassette",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Cerotti",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Cocci di piatti in ceramica",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Cosmetici (rossetti, smalti, etc.)",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Guanti in lattice",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Lastre radiografiche",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Lettiere per animali domestici",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Mozziconi di sigaretta",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Occhiali",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Pannolini e assorbenti",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Penne, pennarelli",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Rasoi, accendini",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Sacchi dell'aspirapolvere",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Scontrini fiscali",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Spazzolini",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Stracci e spugne",
+        "bin": "Indifferenziato"
+    },
+    {
+        "item": "Barattoli in metallo per conserve alimentari",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Bombolette spray non pericolose (non etichettate T e F)",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Bottiglie in plastica",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Caffettiere",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Cassette in plastica",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Chiavi, lucchetti e catene",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Confezioni e vaschette in plastica o polistirolo per alimenti",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Coperchi e fogli di alluminio",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Flaconi in plastica",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Grucce in plastica o ferro per abiti",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Latte e lattine per olio",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Lattine per bevande",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Pellicole per alimenti",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Pentole e padelle in metallo",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Piatti e bicchieri in plastica (anche sporchi, purch\u00e9 svuotati)",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Scatole in metallo",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Tappi",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Tubetti vuoti",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Vaschette da forno",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Posate in metallo",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Piccoli manufatti in metallo",
+        "bin": "Plastica"
+    },
+    {
+        "item": "Alimenti avariati senza confezioni",
+        "bin": "Umido"
+    },
+    {
+        "item": "Avanzi di cucina e di cibo (eliminando i liquidi in eccesso)",
+        "bin": "Umido"
+    },
+    {
+        "item": "Cartoni di pizza con residui di cibo",
+        "bin": "Umido"
+    },
+    {
+        "item": "Cenere di legna",
+        "bin": "Umido"
+    },
+    {
+        "item": "Fazzoletti di carta unti (scottex, tovaglioli)",
+        "bin": "Umido"
+    },
+    {
+        "item": "Filtri di the e tisane",
+        "bin": "Umido"
+    },
+    {
+        "item": "Foglie, fiori e piante da appartamento",
+        "bin": "Umido"
+    },
+    {
+        "item": "Fondi di caff\u00e8 e cialde in carta di caff\u00e8",
+        "bin": "Umido"
+    },
+    {
+        "item": "Gusci delle uova",
+        "bin": "Umido"
+    },
+    {
+        "item": "Gusci di frutti di mare",
+        "bin": "Umido"
+    },
+    {
+        "item": "Pane",
+        "bin": "Umido"
+    },
+    {
+        "item": "Segatura",
+        "bin": "Umido"
+    },
+    {
+        "item": "Terriccio dei travasi (piccole quantit\u00e0)",
+        "bin": "Umido"
+    },
+    {
+        "item": "Verdure, avanzi e bucce di frutta",
+        "bin": "Umido"
+    },
+    {
+        "item": "Barattoli",
+        "bin": "Vetro"
+    },
+    {
+        "item": "Bottiglie",
+        "bin": "Vetro"
+    },
+    {
+        "item": "Bottigliette",
+        "bin": "Vetro"
+    },
+    {
+        "item": "Vasetti",
+        "bin": "Vetro"
+    }
 ]
