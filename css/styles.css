@@ -13154,14 +13154,14 @@ fieldset:disabled .btn {
 
 /* Custom stuff */
 
-.share-button {
+.no-link {
   text-decoration: none;
   color: #fff;
   transition: all 100ms;
   translate: 0px 20px;
 }
 
-.share-button:hover {
+.no-link:hover {
   color: whitesmoke;
   translate: 0px 20px;
 }
