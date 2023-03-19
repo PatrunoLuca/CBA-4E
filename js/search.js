@@ -4,30 +4,29 @@ const outputContainer = document.querySelector('#output-container')
 const outputParagraph = document.querySelector('#output-paragraph')
 
 let data;
-let searchData = {};
 
 fetch('../assets/objects.json')
     .then(response => response.json())
     .then((result) => {
         data = result
+        console.log(data)
 
-        for (let object of data) {
+        for (const [key, value] of Object.entries(data)) {
             const optionTag = document.createElement('option')
-            optionTag.value = object.item
+            optionTag.value = key
 
             oggetti.appendChild(optionTag)
 
-            searchData[object.item.toLowerCase()] = object.bin
         }
 
-        console.log(searchData)
 
     })
 
 searchInput.addEventListener('input', (e) => {
     const input = e.target.value
     
-    let result = searchData[input.toLowerCase()] ?? null
+    let result = data[input.toLowerCase()] ?? null
+
 
     if (result != null) {
         outputParagraph.innerHTML = `Va buttato in: <strong>${result}</strong>`
